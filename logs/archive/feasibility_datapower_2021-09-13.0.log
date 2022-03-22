@@ -1,0 +1,15 @@
+2021-09-13 09:12:13,092 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:12:37,085 [HikariPool-1 housekeeper] WARN  c.z.h.p.HikariPool [Method=run] [Line=787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2d15h24m24s171ms3µs600ns).
+2021-09-13 09:17:14,084 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:22:14,091 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:27:14,101 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:32:14,107 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:37:14,114 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:42:14,127 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:47:14,139 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:52:14,143 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 09:57:14,147 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 10:02:14,160 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 10:07:14,162 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 10:12:14,169 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-13 10:17:14,179 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration

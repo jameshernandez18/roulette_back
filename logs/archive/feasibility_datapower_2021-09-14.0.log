@@ -1,0 +1,207 @@
+2021-09-14 10:06:20,966 [main] INFO  c.t.b.f.d.DatapowerApplication [Method=logStarting] [Line=55] - Starting DatapowerApplication using Java 16.0.2 on BOG-6F0K1Z2 with PID 22500 (C:\Users\yrodrigg\OneDrive - everis\Documentos\Viabilizador\Viabilizador_B2B_BK\datapower\target\classes started by yrodrigg in C:\Users\yrodrigg\OneDrive - everis\Documentos\Viabilizador\Viabilizador_B2B_BK)
+2021-09-14 10:06:20,966 [main] DEBUG c.t.b.f.d.DatapowerApplication [Method=logStarting] [Line=56] - Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-09-14 10:06:20,966 [main] INFO  c.t.b.f.d.DatapowerApplication [Method=logStartupProfileInfo] [Line=679] - The following profiles are active: dev
+2021-09-14 10:06:21,916 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [Method=registerRepositoriesIn] [Line=128] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-14 10:06:22,048 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate [Method=registerRepositoriesIn] [Line=188] - Finished Spring Data repository scanning in 130 ms. Found 7 JPA repository interfaces.
+2021-09-14 10:06:22,299 [main] INFO  o.s.c.c.s.GenericScope [Method=setSerializationId] [Line=283] - BeanFactory id=60fad944-0550-3640-9cc3-7189970499f5
+2021-09-14 10:06:22,341 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor [Method=postProcessBeanFactory] [Line=39] - Post-processing PropertySource instances
+2021-09-14 10:06:22,362 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-09-14 10:06:22,370 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-09-14 10:06:22,370 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-09-14 10:06:22,370 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-09-14 10:06:22,372 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2021-09-14 10:06:22,372 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-09-14 10:06:22,372 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2021-09-14 10:06:22,372 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-09-14 10:06:22,372 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource Config resource 'class path resource [application-dev.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-09-14 10:06:22,372 [main] INFO  c.u.j.EncryptablePropertySourceConverter [Method=makeEncryptable] [Line=56] - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-09-14 10:06:22,392 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [Method=postProcessAfterInitialization] [Line=376] - Bean 'webServiceConfig' of type [com.telefonica.b2b.feasibility.datapower.config.WebServiceConfig$$EnhancerBySpringCGLIB$$274d4612] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 10:06:22,392 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [Method=postProcessAfterInitialization] [Line=376] - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7e188f4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-14 10:06:22,443 [main] INFO  o.s.w.s.a.s.AnnotationActionEndpointMapping [Method=afterPropertiesSet] [Line=236] - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-09-14 10:06:22,453 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter [Method=lambda$null$2] [Line=31] - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-09-14 10:06:22,665 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver [Method=lambda$null$2] [Line=35] - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-09-14 10:06:22,665 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector [Method=lambda$null$2] [Line=35] - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-09-14 10:06:22,827 [main] INFO  o.s.b.w.e.t.TomcatWebServer [Method=initialize] [Line=108] - Tomcat initialized with port(s): 9001 (http)
+2021-09-14 10:06:22,835 [main] INFO  o.a.c.c.StandardService [Method=log] [Line=173] - Starting service [Tomcat]
+2021-09-14 10:06:22,835 [main] INFO  o.a.c.c.StandardEngine [Method=log] [Line=173] - Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-09-14 10:06:23,010 [main] INFO  o.a.c.c.C.[.[.[/] [Method=log] [Line=173] - Initializing Spring embedded WebApplicationContext
+2021-09-14 10:06:23,010 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [Method=prepareWebApplicationContext] [Line=289] - Root WebApplicationContext: initialization completed in 1980 ms
+2021-09-14 10:06:23,088 [main] INFO  c.u.j.e.DefaultLazyEncryptor [Method=lambda$null$2] [Line=37] - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2021-09-14 10:06:23,101 [main] INFO  c.u.j.c.StringEncryptorBuilder [Method=get] [Line=81] - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2021-09-14 10:06:23,101 [main] INFO  c.u.j.c.StringEncryptorBuilder [Method=get] [Line=81] - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2021-09-14 10:06:23,101 [main] INFO  c.u.j.c.StringEncryptorBuilder [Method=get] [Line=81] - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2021-09-14 10:06:23,101 [main] INFO  c.u.j.c.StringEncryptorBuilder [Method=get] [Line=81] - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2021-09-14 10:06:23,101 [main] INFO  c.u.j.c.StringEncryptorBuilder [Method=get] [Line=81] - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2021-09-14 10:06:23,101 [main] INFO  c.u.j.c.StringEncryptorBuilder [Method=get] [Line=81] - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2021-09-14 10:06:23,364 [main] INFO  o.h.j.i.u.LogHelper [Method=logPersistenceUnitInformation] [Line=31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-14 10:06:23,435 [main] INFO  o.hibernate.Version [Method=logVersion] [Line=44] - HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-09-14 10:06:23,625 [main] INFO  o.h.a.common.Version [Method=<clinit>] [Line=56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-14 10:06:23,757 [main] INFO  c.z.h.HikariDataSource [Method=getConnection] [Line=110] - HikariPool-1 - Starting...
+2021-09-14 10:06:24,242 [main] INFO  c.z.h.HikariDataSource [Method=getConnection] [Line=123] - HikariPool-1 - Start completed.
+2021-09-14 10:06:24,258 [main] INFO  o.h.dialect.Dialect [Method=<init>] [Line=175] - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2021-09-14 10:06:25,693 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator [Method=initiateService] [Line=52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-14 10:06:25,699 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean [Method=buildNativeEntityManagerFactory] [Line=437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-14 10:06:25,746 [main] INFO  o.s.w.s.s.SaajSoapMessageFactory [Method=afterPropertiesSet] [Line=141] - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-09-14 10:06:26,147 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [Method=openEntityManagerInViewInterceptor] [Line=221] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-14 10:06:26,216 [main] INFO  o.s.w.s.s.SaajSoapMessageFactory [Method=afterPropertiesSet] [Line=141] - Creating SAAJ 1.3 MessageFactory with SOAP 1.1 Protocol
+2021-09-14 10:06:26,649 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [Method=initialize] [Line=181] - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-14 10:06:27,087 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration [Method=restTemplateDiscoveryClientOptionalArgs] [Line=68] - Eureka HTTP Client uses RestTemplate.
+2021-09-14 10:06:27,309 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [Method=logWarning] [Line=82] - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-14 10:06:27,370 [main] INFO  o.s.c.n.e.InstanceInfoFactory [Method=create] [Line=67] - Setting initial instance status as: STARTING
+2021-09-14 10:06:27,410 [main] INFO  c.n.d.DiscoveryClient [Method=<init>] [Line=372] - Initializing Eureka in region us-east-1
+2021-09-14 10:06:27,419 [main] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:06:27,459 [main] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1007] - Disable delta property : false
+2021-09-14 10:06:27,459 [main] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1008] - Single vip registry refresh property : null
+2021-09-14 10:06:27,459 [main] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1009] - Force full registry fetch : false
+2021-09-14 10:06:27,459 [main] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1010] - Application is null : false
+2021-09-14 10:06:27,459 [main] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1011] - Registered Applications size is zero : true
+2021-09-14 10:06:27,459 [main] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1013] - Application version is -1: true
+2021-09-14 10:06:27,459 [main] INFO  c.n.d.DiscoveryClient [Method=getAndStoreFullRegistry] [Line=1097] - Getting all instance registry info from the eureka server
+2021-09-14 10:06:27,839 [main] INFO  c.n.d.DiscoveryClient [Method=getAndStoreFullRegistry] [Line=1106] - The response status is 200
+2021-09-14 10:06:27,849 [main] INFO  c.n.d.DiscoveryClient [Method=initScheduledTasks] [Line=1321] - Starting heartbeat executor: renew interval is: 30
+2021-09-14 10:06:27,849 [main] INFO  c.n.d.InstanceInfoReplicator [Method=<init>] [Line=60] - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-14 10:06:27,869 [main] INFO  c.n.d.DiscoveryClient [Method=<init>] [Line=492] - Discovery Client initialized at timestamp 1631631987869 with initial instances count: 0
+2021-09-14 10:06:27,869 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry [Method=register] [Line=41] - Registering application DATAPOWER with eureka with status UP
+2021-09-14 10:06:27,869 [main] INFO  c.n.d.DiscoveryClient [Method=notify] [Line=1352] - Saw local status change event StatusChangeEvent [timestamp=1631631987869, current=UP, previous=STARTING]
+2021-09-14 10:06:27,869 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient [Method=register] [Line=873] - DiscoveryClient_DATAPOWER/BOG-6F0K1Z2.usersad.everis.int:datapower:9001: registering service...
+2021-09-14 10:06:27,899 [main] INFO  o.s.b.w.e.t.TomcatWebServer [Method=start] [Line=220] - Tomcat started on port(s): 9001 (http) with context path ''
+2021-09-14 10:06:27,899 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration [Method=onApplicationEvent] [Line=144] - Updating port to 9001
+2021-09-14 10:06:27,969 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient [Method=register] [Line=882] - DiscoveryClient_DATAPOWER/BOG-6F0K1Z2.usersad.everis.int:datapower:9001 - registration status: 204
+2021-09-14 10:06:28,099 [main] INFO  c.t.b.f.d.DatapowerApplication [Method=logStarted] [Line=61] - Started DatapowerApplication in 8.145 seconds (JVM running for 9.193)
+2021-09-14 10:06:57,857 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1007] - Disable delta property : false
+2021-09-14 10:06:57,858 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1008] - Single vip registry refresh property : null
+2021-09-14 10:06:57,858 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1009] - Force full registry fetch : false
+2021-09-14 10:06:57,858 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1010] - Application is null : false
+2021-09-14 10:06:57,858 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1011] - Registered Applications size is zero : true
+2021-09-14 10:06:57,858 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient [Method=fetchRegistry] [Line=1013] - Application version is -1: false
+2021-09-14 10:06:57,859 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient [Method=getAndStoreFullRegistry] [Line=1097] - Getting all instance registry info from the eureka server
+2021-09-14 10:06:57,868 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient [Method=getAndStoreFullRegistry] [Line=1106] - The response status is 200
+2021-09-14 10:11:27,467 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:16:27,492 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:21:27,512 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:26:27,529 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:31:27,545 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:36:27,556 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:41:27,558 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:46:27,559 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:49:59,146 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.DiscoveryClient [Method=renew] [Line=897] - DiscoveryClient_DATAPOWER/BOG-6F0K1Z2.usersad.everis.int:datapower:9001 - Re-registering apps/DATAPOWER
+2021-09-14 10:49:59,146 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.DiscoveryClient [Method=register] [Line=873] - DiscoveryClient_DATAPOWER/BOG-6F0K1Z2.usersad.everis.int:datapower:9001: registering service...
+2021-09-14 10:49:59,156 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.DiscoveryClient [Method=register] [Line=882] - DiscoveryClient_DATAPOWER/BOG-6F0K1Z2.usersad.everis.int:datapower:9001 - registration status: 204
+2021-09-14 10:51:27,565 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 10:52:59,243 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.DiscoveryClient [Method=renew] [Line=897] - DiscoveryClient_DATAPOWER/BOG-6F0K1Z2.usersad.everis.int:datapower:9001 - Re-registering apps/DATAPOWER
+2021-09-14 10:52:59,244 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.DiscoveryClient [Method=register] [Line=873] - DiscoveryClient_DATAPOWER/BOG-6F0K1Z2.usersad.everis.int:datapower:9001: registering service...
+2021-09-14 10:52:59,248 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.n.d.DiscoveryClient [Method=register] [Line=882] - DiscoveryClient_DATAPOWER/BOG-6F0K1Z2.usersad.everis.int:datapower:9001 - registration status: 204
+2021-09-14 10:56:27,579 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:01:27,591 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:06:27,604 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:11:27,609 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:16:27,612 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:21:27,622 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:26:27,634 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:31:27,646 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:36:27,661 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:41:27,679 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:46:27,686 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:51:27,687 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 11:56:27,703 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:01:27,707 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:06:27,717 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:11:27,731 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:16:27,740 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:21:27,757 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:26:27,769 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:31:27,785 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:36:27,794 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:41:27,797 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:46:27,809 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:51:27,813 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 12:56:27,829 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:01:27,843 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:06:27,854 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:11:27,866 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:16:27,876 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:21:27,884 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:26:27,895 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:31:27,915 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:36:27,932 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:41:27,938 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:46:27,943 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:51:27,960 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 13:56:27,963 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:01:27,976 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:06:27,986 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:11:27,997 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:16:28,008 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:21:28,014 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:26:28,027 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:31:28,033 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:36:28,046 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:41:28,051 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:46:28,063 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:51:28,075 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 14:56:28,086 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:01:28,098 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:06:28,106 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:11:28,109 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:16:28,122 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:21:28,136 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:26:28,138 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:31:28,151 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:36:28,165 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:41:28,181 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:46:28,189 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:51:28,204 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 15:56:28,208 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:01:28,220 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:06:28,236 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:11:28,238 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:16:28,243 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:21:28,264 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:26:28,280 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:31:28,296 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:36:28,309 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:41:28,326 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:46:28,342 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:51:28,347 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 16:56:28,358 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:01:28,360 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:06:28,369 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:11:28,385 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:16:28,394 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:21:28,407 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:26:28,412 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:31:28,422 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:36:28,427 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:41:28,435 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:46:28,450 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:51:28,462 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 17:56:28,475 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:01:28,495 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:06:28,507 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:11:28,523 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:16:28,531 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:21:28,538 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:26:28,542 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:31:28,550 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:36:28,552 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:41:28,557 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:46:28,570 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:51:28,576 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 18:56:28,588 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:01:28,598 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:06:28,608 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:11:28,623 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:16:28,627 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:21:28,643 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:26:28,645 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:31:28,658 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:36:28,662 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:41:28,675 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:46:28,691 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:51:28,703 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 19:56:28,718 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 20:01:28,734 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 20:06:28,740 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 20:11:28,742 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 20:16:28,755 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
+2021-09-14 20:21:28,769 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.a.ConfigClusterResolver [Method=getClusterEndpoints] [Line=43] - Resolving eureka endpoints via configuration
